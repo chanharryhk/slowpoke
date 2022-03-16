@@ -1,0 +1,50 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Poke",
+  "sourceName": "contracts/Poke.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "currTime",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "currNum",
+          "type": "uint256"
+        }
+      ],
+      "name": "Poked",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "num",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "poke",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60806040526000805534801561001457600080fd5b50610101806100246000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c8063181783581460375780634e70b1dc14603f575b600080fd5b603d6059565b005b604760005481565b60405190815260200160405180910390f35b600054606590600160a6565b60008190556040805142815260208101929092527f3236527b80ebd86d1f99f3d009522e5ea7d1b641add94da4a98aeb1d87e05238910160405180910390a1565b6000821982111560c657634e487b7160e01b600052601160045260246000fd5b50019056fea264697066735822122055d332c6c9218607b43b2edc00cba892ff89b8044b4e941af39ae058197d16d364736f6c634300080a0033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c8063181783581460375780634e70b1dc14603f575b600080fd5b603d6059565b005b604760005481565b60405190815260200160405180910390f35b600054606590600160a6565b60008190556040805142815260208101929092527f3236527b80ebd86d1f99f3d009522e5ea7d1b641add94da4a98aeb1d87e05238910160405180910390a1565b6000821982111560c657634e487b7160e01b600052601160045260246000fd5b50019056fea264697066735822122055d332c6c9218607b43b2edc00cba892ff89b8044b4e941af39ae058197d16d364736f6c634300080a0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

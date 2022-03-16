@@ -1,0 +1,661 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/kin/Projects/dfx/slowpoke/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1647392718345,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/Users/kin/Projects/dfx/slowpoke/contracts/Poke.sol": {
+      "lastModificationDate": 1647392748762,
+      "contentHash": "fcc08e431b28cb8e8087b7567c60239f",
+      "sourceName": "contracts/Poke.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "Poke"
+      ]
+    },
+    "/Users/kin/Projects/dfx/slowpoke/contracts/interfaces/IChainLinkOracle.sol": {
+      "lastModificationDate": 1647395547052,
+      "contentHash": "e017c52539420e6926c59aed97749812",
+      "sourceName": "contracts/interfaces/IChainLinkOracle.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IChainLinkOracle"
+      ]
+    },
+    "/Users/kin/Projects/dfx/slowpoke/contracts/oracles/DfxCadTWAP.sol": {
+      "lastModificationDate": 1647395642795,
+      "contentHash": "6bd1cb20674ff6ef1d88591d8d656c02",
+      "sourceName": "contracts/oracles/DfxCadTWAP.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IDfxOracle.sol",
+        "../interfaces/IChainLinkOracle.sol",
+        "./UniswapV2Oracle.sol",
+        "@openzeppelin/contracts/access/AccessControl.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "DfxCadTWAP"
+      ]
+    },
+    "/Users/kin/Projects/dfx/slowpoke/contracts/interfaces/IDfxOracle.sol": {
+      "lastModificationDate": 1647395578151,
+      "contentHash": "184aab36205961816836c10018cd4a21",
+      "sourceName": "contracts/interfaces/IDfxOracle.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "IDfxOracle"
+      ]
+    },
+    "/Users/kin/Projects/dfx/slowpoke/contracts/oracles/UniswapV2Oracle.sol": {
+      "lastModificationDate": 1647395633114,
+      "contentHash": "468f22b8b78842fe307e392f5da47d4f",
+      "sourceName": "contracts/oracles/UniswapV2Oracle.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IUniswapV2.sol",
+        "../libraries/FixedPoint.sol",
+        "../libraries/UniswapV2.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "UniswapV2Oracle"
+      ]
+    },
+    "/Users/kin/Projects/dfx/slowpoke/node_modules/@openzeppelin/contracts/access/AccessControl.sol": {
+      "lastModificationDate": 1647395805928,
+      "contentHash": "76cae8e1eb9c27e818b0b08e1527f731",
+      "sourceName": "@openzeppelin/contracts/access/AccessControl.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IAccessControl.sol",
+        "../utils/Context.sol",
+        "../utils/Strings.sol",
+        "../utils/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AccessControl"
+      ]
+    },
+    "/Users/kin/Projects/dfx/slowpoke/contracts/interfaces/IUniswapV2.sol": {
+      "lastModificationDate": 1647395678703,
+      "contentHash": "de1f762c3e7cec774dc4a0670319a873",
+      "sourceName": "contracts/interfaces/IUniswapV2.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Factory",
+        "IUniswapV2Pair",
+        "IUniswapV2Router01",
+        "IUniswapV2Router02"
+      ]
+    },
+    "/Users/kin/Projects/dfx/slowpoke/contracts/libraries/FixedPoint.sol": {
+      "lastModificationDate": 1647395780505,
+      "contentHash": "0f3a1b854f700ac92b9ffd3d9e9237c1",
+      "sourceName": "contracts/libraries/FixedPoint.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./FullMath.sol",
+        "./Babylonian.sol",
+        "./BitMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.0"
+      ],
+      "artifacts": [
+        "FixedPoint"
+      ]
+    },
+    "/Users/kin/Projects/dfx/slowpoke/contracts/libraries/UniswapV2.sol": {
+      "lastModificationDate": 1647395724096,
+      "contentHash": "492accf19d5f4f2c5ab4f00a97234ac2",
+      "sourceName": "contracts/libraries/UniswapV2.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IUniswapV2.sol",
+        "./FixedPoint.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "UniswapV2OracleLibrary"
+      ]
+    },
+    "/Users/kin/Projects/dfx/slowpoke/contracts/libraries/FullMath.sol": {
+      "lastModificationDate": 1647395771755,
+      "contentHash": "2b77da641322a338ba325cc1b912fc54",
+      "sourceName": "contracts/libraries/FullMath.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "FullMath"
+      ]
+    },
+    "/Users/kin/Projects/dfx/slowpoke/contracts/libraries/Babylonian.sol": {
+      "lastModificationDate": 1647395779409,
+      "contentHash": "3f7a9d2b13eebc20350a1cc42ed09b16",
+      "sourceName": "contracts/libraries/Babylonian.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.0"
+      ],
+      "artifacts": [
+        "Babylonian"
+      ]
+    },
+    "/Users/kin/Projects/dfx/slowpoke/contracts/libraries/BitMath.sol": {
+      "lastModificationDate": 1647395747575,
+      "contentHash": "d8381100a4a32ccf54c9b0449e469538",
+      "sourceName": "contracts/libraries/BitMath.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "BitMath"
+      ]
+    },
+    "/Users/kin/Projects/dfx/slowpoke/node_modules/@openzeppelin/contracts/access/IAccessControl.sol": {
+      "lastModificationDate": 1647395806094,
+      "contentHash": "57c84298234411cea19c7c284d86be8b",
+      "sourceName": "@openzeppelin/contracts/access/IAccessControl.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IAccessControl"
+      ]
+    },
+    "/Users/kin/Projects/dfx/slowpoke/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1647395805933,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/kin/Projects/dfx/slowpoke/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1647395806124,
+      "contentHash": "9c54c6c065d9e590fdcdd72c451425b9",
+      "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "/Users/kin/Projects/dfx/slowpoke/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
+      "lastModificationDate": 1647395805984,
+      "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "/Users/kin/Projects/dfx/slowpoke/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+      "lastModificationDate": 1647395806107,
+      "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    }
+  }
+}
